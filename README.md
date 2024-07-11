@@ -46,11 +46,7 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[your_api_token](#https://huggingface.
 
 1. **Open the Jupyter Notebook:**
 
-   Start Jupyter Notebook in the project directory and open `chatbot.ipynb`:
-
-   ```bash
-   jupyter notebook
-   ```
+   Open ```chatbot.ipynb``` using jupyter notebook or Google Colaboratory.
 
 2. **Run the Notebook:**
 
