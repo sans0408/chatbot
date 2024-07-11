@@ -1,9 +1,8 @@
 # NLP Chatbot
-This project demonstrates the creation of a chatbot using various NLP (Natural Language Processing) techniques and applications in Python. The project is implemented in a Jupyter notebook, allowing for interactive code execution and detailed explanations.
+This project demonstrates the creation of a chatbot using various transformer models from huggingface in Python. The project is implemented in a Jupyter notebook, allowing for interactive code execution and detailed explanations.
 
 ## Contents
 
-- [Overview](#overview)
 - [Contents](#contents)
 - [Requirements](#requirements)
 - [Setup](#setup)
@@ -14,54 +13,34 @@ This project demonstrates the creation of a chatbot using various NLP (Natural L
 
 To run the notebook, you need the following libraries installed:
 
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- nltk
-- scikit-learn
-- tensorflow (or pytorch)
-- spaCy
-- gensim
-
+- huggingface_hub
+- transformers
+- langchain
+- chainlit
+  
 You can install the required libraries using pip:
 
 ```bash
-pip install numpy pandas matplotlib seaborn nltk scikit-learn tensorflow spacy gensim
+pip install huggingface_hub transformers langchain chainlit
 ```
 
-Additionally, download the necessary NLTK data:
-
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-```
-
-And download the spaCy language model:
-
-```bash
-python -m spacy download en_core_web_sm
-```
+Set up the Hugging Face API token
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[your_api_token](#https://huggingface.co/settings/tokens)'
 
 ## Setup
 
-1. **Clone the Repository:**
+**Clone the Repository:**
 
    ```bash
    git clone <repository_url>
    cd <repository_directory>
    ```
 
-2. **Install the Requirements:**
+**Edit the code to set up your API token**
 
    ```bash
-   pip install -r requirements.txt
+   os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[your_api_token](#https://huggingface.co/settings/tokens)'
    ```
-
-   Make sure to have the required NLTK data and spaCy model as mentioned in the [Requirements](#requirements) section.
 
 ## Usage
 
@@ -75,11 +54,9 @@ python -m spacy download en_core_web_sm
 
 2. **Run the Notebook:**
 
-   Follow the instructions in the notebook to run each cell. The notebook is organized into sections, each covering different aspects of building a chatbot using NLP techniques.
+   Follow the instructions in the notebook to run each cell. The notebook consists of multiple use cases of an NLP Chatbot, consolidated in a menu-driven program.
 
 ## Project Structure
 
 - **chatbot.ipynb:** The main Jupyter notebook containing the project code and explanations.
-- **data:** Directory to store any datasets used in the project.
-- **models:** Directory to save trained models.
-- **output:** Directory to save output files such as plots and results.
+- **README.md:** Contains the usage instructions for this project.
