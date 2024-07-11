@@ -39,7 +39,7 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[your_api_token](#https://huggingface.
 **Edit the code to set up your API token**
 
    ```bash
-   os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[your_api_token](#https://huggingface.co/settings/tokens)'
+   os.environ['HUGGINGFACEHUB_API_TOKEN'] = 'your_api_token'
    ```
 
 ## Usage
