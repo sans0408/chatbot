@@ -46,7 +46,7 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[Replace with your token](https://hugg
 
 1. **Open the Jupyter Notebook:**
 
-   Open ```chatbot.ipynb``` using jupyter notebook or Google Colaboratory.
+   Open ```nlp_chatbot.ipynb``` using jupyter notebook or Google Colaboratory.
 
 2. **Run the Notebook:**
 
