@@ -25,7 +25,7 @@ pip install huggingface_hub transformers langchain chainlit
 ```
 
 Set up the Hugging Face API token
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[Access your token from here](https://huggingface.co/settings/tokens)'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[Replace with your token](https://huggingface.co/settings/tokens)'
 
 ## Setup
 
