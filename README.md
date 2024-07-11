@@ -32,8 +32,8 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = '[Replace with your token](https://hugg
 **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone chatbot
+   cd chatbot
    ```
 
 **Edit the code to set up your API token**
